@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Kumpulan profil siswa dengan karakter chibi lucu dan desain biru soft." />
+    <title>SiswaSoft — Profil Siswa</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;700;800&family=Nunito:wght@400;600;700;800;900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <nav class="topbar" aria-label="Navigasi utama">
+        <a class="brand" href="#beranda" aria-label="SiswaSoft beranda">
+          <span class="brand-mark" aria-hidden="true">✦</span>
+          <span>Siswa<span>Soft</span></span>
+        </a>
+        <div class="nav-links">
+          <a class="nav-link active" href="#beranda">Beranda</a>
+          <a class="nav-link" href="#profil">Profil siswa</a>
+          <a class="nav-link" href="#tentang">Tentang</a>
+        </div>
+        <a class="topbar-pill" href="#profil"><span class="dot"></span> 3 profil aktif</a>
+        <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Aktifkan dark mode" aria-pressed="false"><span class="theme-icon" aria-hidden="true">☾</span><span class="theme-label">Mode gelap</span></button>
+      </nav>
+
+      <main id="beranda">
+        <section class="hero-section" aria-labelledby="judul-utama">
+          <div class="hero-copy">
+            <p class="eyebrow"><span class="eyebrow-spark">✿</span> ruang kecil, cerita besar</p>
+            <h1 id="judul-utama">Kenalan dengan<br /><span>siswa inspiratif!</span></h1>
+            <p class="hero-description">Tiga siswa, tiga cerita, dan tiga cara berbeda untuk terus berkembang. Yuk, kenali mereka lebih dekat.</p>
+            <a class="primary-button" href="#profil">Jelajahi profil <span aria-hidden="true">↗</span></a>
+          </div>
+          <div class="hero-art" aria-label="Ilustrasi karakter chibi sedang belajar">
+            <div class="spark spark-one">✦</div>
+            <div class="spark spark-two">✧</div>
+            <div class="spark spark-three">•</div>
+            <div class="cloud cloud-left"></div>
+            <div class="cloud cloud-right"></div>
+            <div class="hero-note note-top"><span>hello!</span><small>૮ ˶ᵔ ᵕ ᵔ˶ ა</small></div>
+            <div class="hero-chibi chibi-lavender" aria-hidden="true">
+              <div class="chibi-hair"></div>
+              <div class="chibi-face">
+                <span class="chibi-eye eye-left"></span><span class="chibi-eye eye-right"></span>
+                <span class="chibi-cheek cheek-left"></span><span class="chibi-cheek cheek-right"></span>
+                <span class="chibi-mouth"></span>
+              </div>
+              <div class="chibi-body"><span class="shirt-logo">★</span></div>
+              <div class="chibi-arm arm-left"></div><div class="chibi-arm arm-right"></div>
+            </div>
+            <div class="hero-book"><span></span><span></span><span></span></div>
+            <div class="hero-ground"></div>
+          </div>
+        </section>
+
+        <section class="stats-strip" aria-label="Ringkasan profil">
+          <div class="stat-item"><strong>03</strong><span>profil siswa</span></div>
+          <div class="stat-divider"></div>
+          <div class="stat-item"><strong>03</strong><span>sekolah</span></div>
+          <div class="stat-divider"></div>
+          <div class="stat-item"><strong>∞</strong><span>mimpi seru</span></div>
+          <div class="stats-note">scroll pelan-pelan, ya <span>↓</span></div>
+        </section>
+
+        <section class="profiles-section" id="profil" aria-labelledby="judul-profil">
+          <div class="section-heading">
+            <div>
+              <p class="eyebrow">tiga profil siswa <span class="eyebrow-spark">✿</span></p>
+              <h2 id="judul-profil">Mereka punya cerita</h2>
+            </div>
+            <p class="section-intro">Klik kartu untuk menemukan<br />detail kecil yang menyenangkan.</p>
+          </div>
+
+          <div class="profile-grid">
+            <article class="profile-card card-mint" data-student="alya" data-name="Alya">
+              <div class="card-top"><span class="card-number">01 / 03</span><button class="favorite-button" type="button" aria-label="Tandai Alya sebagai favorit" aria-pressed="false">♡</button></div>
+              <div class="avatar-stage avatar-mint avatar-photo-stage" aria-label="Ilustrasi Alya">
+                <span class="stage-star star-left">✦</span><span class="stage-star star-right">✧</span>
+                <div class="avatar-photo"><img src="assets/alya.jpeg" alt="Ilustrasi Alisa Mikhailovna Kujou" /></div>
+                <span class="avatar-caption">hai, aku alya!</span>
+              </div>
+              <div class="profile-content">
+                <div class="name-row"><div><h3>Alisa Mikhailovna Kujou</h3><p class="role-label">The Quiet Achiever</p><p class="school-line"><strong>Kelas 1-A</strong> · Akademi Swasta Seirei</p></div><span class="class-badge" data-role="badge">01</span></div>
+                <p class="profile-bio">Siswi blasteran Rusia-Jepang yang genius, mandiri, dan menawan. Di balik julukan Putri yang Menyendiri, ia menyimpan sisi tsundere yang hangat.</p>
+                <div class="tag-list"><span class="interest-tag">📚 belajar & membaca</span><span class="interest-tag">🎧 musik</span><span class="interest-tag">🧁 membuat kue</span><span class="interest-tag">🗣️ debat bahasa</span><span class="interest-tag">🏫 OSIS</span></div>
+                <div class="career-line"><span>Cita-cita</span> Ketua OSIS di Akademi Swasta Seirei</div>
+                <div class="motto"><span class="quote-mark">“</span><p>Lakukan segala hal dengan kemampuan terbaikmu tanpa harus bergantung pada bantuan orang lain.</p></div>
+                <button class="detail-button" type="button" aria-expanded="false">Lihat deskripsi Alya <span>→</span></button>
+                <div class="hidden-story" aria-hidden="true">Alya sering menyembunyikan perasaannya kepada Masachika Kuze dengan bergumam menggunakan bahasa Rusia.</div>
+              </div>
+            </article>
+
+            <article class="profile-card card-peach" data-student="indah" data-name="Indah">
+              <div class="card-top"><span class="card-number">02 / 03</span><button class="favorite-button" type="button" aria-label="Tandai Indah sebagai favorit" aria-pressed="false">♡</button></div>
+              <div class="avatar-stage avatar-peach" aria-label="Karakter chibi Indah">
+                <span class="stage-star star-left">✦</span><span class="stage-star star-right">✧</span>
+                <div class="avatar-photo"><img src="assets/indah-enhanced.png" alt="Foto Indah Kusumawati" /></div>
+                <span class="avatar-caption">hai, aku indah!</span>
+              </div>
+              <div class="profile-content">
+                <div class="name-row"><div><h3>Indah Kusumawati</h3><p class="role-label">The Curious Coder</p><p class="school-line"><strong>Kelas XI RPL 1</strong> · SMK Antartika 2 Sidoarjo</p></div><span class="class-badge" data-role="badge">02</span></div>
+                <p class="profile-bio">Siswi Rekayasa Perangkat Lunak yang fokus belajar coding, aktif berorganisasi, suka petualangan alam, dan selalu siap mencoba hal baru.</p>
+                <div class="tag-list"><span class="interest-tag">🍳 memasak</span><span class="interest-tag">🏔️ mendaki</span><span class="interest-tag">💻 coding</span><span class="interest-tag">🌍 bahasa asing</span><span class="interest-tag">🤝 PMR & Student Company</span></div>
+                <div class="career-line"><span>Cita-cita</span> Programmer atau Translator bahasa asing</div>
+                <div class="motto"><span class="quote-mark">“</span><p>Terus belajar dan mencoba hal baru, karena pengalaman adalah guru terbaik.</p></div>
+                <button class="detail-button" type="button" aria-expanded="false">Lihat deskripsi Indah <span>→</span></button>
+                <div class="hidden-story" aria-hidden="true">Jiwa sosial dan kepeduliannya mengantarkan Indah menjadi Duta SMK Antartika 2 Sidoarjo 2025 sekaligus Duta Pepelingasih Kabupaten Sidoarjo 2025.</div>
+              </div>
+            </article>
+
+            <article class="profile-card card-blue featured-card" data-student="horikita" data-name="Horikita">
+              <div class="card-top"><span class="card-number">03 / 03</span><button class="favorite-button" type="button" aria-label="Tandai Horikita sebagai favorit" aria-pressed="false">♡</button></div>
+              <div class="avatar-stage avatar-blue" aria-label="Karakter chibi Horikita">
+                <span class="stage-star star-left">✦</span><span class="stage-star star-right">✧</span>
+                <div class="avatar-photo"><img src="assets/horikita.jpeg" alt="Ilustrasi Horikita Suzune" /></div>
+                <span class="avatar-caption">halo, aku horikita!</span>
+              </div>
+              <div class="profile-content">
+                <div class="name-row"><div><h3>Horikita Suzune</h3><p class="role-label">The Strategic Leader</p><p class="school-line"><strong>Kelas 3-A</strong> · SMA Metropolitan Tokyo Advanced Nurturing</p></div><span class="class-badge" data-role="badge">03</span></div>
+                <p class="profile-bio">Gadis cerdas, tegas, dan penuh perhitungan yang berkembang menjadi pemimpin luar biasa untuk membawa kelasnya menuju posisi tertinggi.</p>
+                <div class="tag-list"><span class="interest-tag">📖 filsafat</span><span class="interest-tag">🥗 memasak sehat</span><span class="interest-tag">🥋 Judo & Karate</span><span class="interest-tag">♟️ strategi ujian</span></div>
+                <div class="career-line"><span>Cita-cita</span> Lulus sebagai peringkat teratas Kelas A dan melampaui Manabu Horikita</div>
+                <div class="motto"><span class="quote-mark">“</span><p>Kesendirian bukan kelemahan, melainkan bukti kemandirian untuk mencapai puncak.</p></div>
+                <button class="detail-button" type="button" aria-expanded="false">Lihat deskripsi Horikita <span>→</span></button>
+                <div class="hidden-story" aria-hidden="true">Sebagai Ketua OSIS terbaru, Horikita berhasil memimpin kelasnya dari posisi terbawah hingga menembus kasta tertinggi Kelas A.</div>
+              </div>
+            </article>
+          </div>
+        </section>
+
+      </main>
+
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
